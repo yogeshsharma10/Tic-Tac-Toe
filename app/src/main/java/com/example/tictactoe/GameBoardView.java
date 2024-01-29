@@ -180,7 +180,6 @@ public class GameBoardView extends View {
 
         currentStatus = "status";
         MainActivity.status.setText(currentStatus);
-
         currentPlayer = CROSS;
         invalidate();
     }
